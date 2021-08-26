@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 ago 2021, 13:46:49
+    Author     : valer
+*/
+body{
+    background: #CDF0EA;
+}
+
+#titulo{
+    background-color: rgba(23, 0, 85,0.8);
+    width: 55%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    border-radius: 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#direccion, #tipos, #mac, #isp, #pbc, #pti, #spw, #pde, #dns, #fire,
+#web, #ftp, #ht, #c, #con{
+    background-color: rgba(45, 70, 185, 0.8);
+    width: 15%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    border-radius: 15px;
+    margin: 45px;
+}
+
+#dir, #tip2, #tip4, #tip6, #tip8, #mac2, #isp2, #pbc2, #pti2, #red2, #spw2,
+#pde2,#dns2,#dns4, #fire2, #web2, #ftp2, #ht2, #c2, #con2,#con4,
+#con6, #con8, #con10{
+    font-size: 30px;
+    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    margin: 45px;
+    text-align: justify;
+}
+
+#tip, #tip3, #tip5, #tip7, #dns3, #con1, #con3, #con5, #con7, #con9{
+    font-size: 30px;
+    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    margin: 45px;
+    color: #0F52BA;
+    text-align: justify;
+}
+
+#ippriv, #ippriv2, #pti3{
+    font-size: 30px;
+    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    margin: 55px;
+    text-align: justify;
+}
+#red, #dipp{
+    background-color: rgba(45, 70, 185, 0.8);
+    width: 25%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    border-radius: 15px;
+    margin: 45px;
+}
+
+#tabla {
+   border-collapse: collapse;
+   border-spacing: 5px;
+   color: black;
+   font-size:large;
+   border-radius: 15px;
+   font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+   margin: 60px;
+   align-items: center;
+}
+#dipp2,#dipp4{
+ background-color: rgba(116, 255, 255, 0.5);
+   color: black;
+   font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+   text-align: center;
+   color: #0F52BA;
+   font-size: 30px;
+}
+#dipp3,#dipp5{
+    background-color: rgba(116, 255, 255, 0.5);
+    text-align: justify;
+    font-size: 30px;
+}

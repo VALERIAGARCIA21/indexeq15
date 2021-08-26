@@ -1,0 +1,255 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>PRACTICA 1</title>
+        <link href="CSS/DIS.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+        <center>
+        <div id="titulo">
+        <h1>PRACTICA 1 ; CONCEPTOS</h1>
+        </div>
+        </center> 
+        <div id="direccion">
+            <h3>DIRECCIÓN IP</h3>
+        </div>
+        <p id="dir"> 
+            Las direcciones IP es el numero que tiene tu dispositivo dentro de una red, normalmente se asigna automáticamente cuando te conectas. 
+            La IP es el protocolo de comunicación, lo que determina las direcciones IP, y la dirección IP es la que se le asigna a un dispositivo.
+        </p>
+        <br>
+        <div id="tipos">
+            <h3>TIPOS DE DIRECCION IP</h3>
+        </div>
+        <p id="tip">Direcciones Públicas</p>
+        <p id="tip2">
+            Son visibles desde todo el internet. 
+            Se contratan tantas como necesitemos. Se asignan a los servidores de Internet que sirven información 24 horas al día.
+        </p>
+        <p id="tip3">Direcciones Privadas</p>
+        <p id="tip4">
+            Son visibles solo desde una red interna pero no desde Internet. Se utilizan para identificar los puestos de trabajo de las empresas. 
+            Se pueden utilizar tantas como se necesiten; no es necesario contratarlas
+        </p>
+        <ul id="ippriv">
+            <li>Direcciones IP privadas de clase A: 10.0.0.1 a 10.255.255.254; hacen posible la creación de grandes redes privadas que incluyen miles de equipos.</li>
+            <li>Direcciones IP privadas de clase B: 172.16.0.1 a 172.31.255.254; hacen posible la creación de redes privadas de tamaño medio.</li>
+            <li>Direcciones IP privadas de clase C: 192.168.0.1 a 192.168.0.254; para establecer pequeñas redes privadas.</li>
+        </ul>
+        <p id="tip5">Direcciones Reservadas</p>
+        <p id="tip6">
+            Existen una serie de direcciones especialmente reservadas para usos privados.Es decir, no se usarán en una red pública de internet.
+        </p>
+        <ul id="ippriv2">
+            <li>Para la clase A 10.0.0.0</li>
+            <li>Para la clase B 172.16.0.0 --> 172.31.0.0</li>
+            <li>Para la clase C 192.168.0.0 --> 192.168.255.0</li>
+        </ul>
+         <p id="tip7">Máscara de red</p>
+        <p id="tip8">
+            Una máscara de red consiste en una máscara de 32 bits que se utiliza para dividir una dirección IP en subredes y especificar los hosts disponibles de la red. Con esta máscara de red, siempre se asignan automáticamente dos bits.
+            Este término también se utiliza para definir la clase y el rango de las direcciones de protocolo de Internet. 
+        </p>
+        <center>
+            <img src="CSS/ip.jpg" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="mac">
+            <h3>MAC ADDRESS</h3>
+        </div>
+        <p id="mac2">
+            Una dirección de control de acceso a medios es un identificador único asignado a un controlador de interfaz de red para su uso 
+            como dirección de red en comunicaciones dentro de un segmento de red.Este uso es común en la mayoría de las tecnologías de red IEEE 802, incluidas Ethernet, Wi-FI y Bluetooth.
+        </p>
+         <center>
+             <img src="CSS/ipconfig-all-mac-address.jpg" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="isp">
+            <h3>ISP</h3>
+        </div>
+        <p id="isp2">
+            Un ISP o Proveedor de Servicios de Internet (Del inglés Internet Service Provider), es el término con el que se identifica a las compañías que proporcionan acceso a Internet, 
+            tanto a los hogares como a otras empresas.<br>
+            <br>
+            Básicamente, lo que hace un ISP es desplegar una red de telecomunicaciones que se conecta a otras redes.<br>
+            <br>
+            Existe una jerarquía de proveedores
+            en función del nivel de red al que se conecta cada ISP. El nivel más bajo se denomina Tier 3, y conecta redes privadas empresariales y ordenadores personales con los ISP de nivel Tier 2. 
+            Éstos tienen una cobertura de ámbito local o nacional y pueden conectarse entre si o también conectarse con los ISP de nivel Tier 1, que son los que tienen cobertura internacional.
+        </p>
+        <center>
+            <img src="CSS/Isp.png" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="pbc">
+            <h3>PUERTOS BIEN CONOCIDOS</h3>
+        </div>
+        <p id="pbc2">
+            La Agencia de asignación de números por Internet (IANA) asigna números de puerto. IANA es un organismo normativo responsable de asegurar diferentes estándares de direccionamiento.<br>
+            <br>
+            Puertos bien conocidos (números del 0 al 1023): estos números se reservan para servicios y aplicaciones. Se utilizan comúnmente para aplicaciones como HTTP (servidor Web), protocolo de 
+            acceso a mensajes de Internet (IMAP) o protocolo simple de transferencia de correo (SMTP) (servidor de correo electrónico) y Telnet. Al definir estos puertos bien conocidos para las 
+            aplicaciones de los servidores, las aplicaciones cliente se pueden programar para solicitar una conexión a ese puerto en particular y el servicio relacionado.
+        </p>
+        <div id="pti">
+            <h3>PROTOCOLOS TCP/IP</h3>
+        </div>
+        <p id="pti2">
+            Los protocolos son conjuntos de normas para formatos de mensaje y procedimientos que permiten a las máquinas y los programas de aplicación intercambiar información.
+            El conjunto de protocolos TCP/IP puede interpretarse en términos de capas (o niveles).<br>
+            <br>
+            TCP/IP define cuidadosamente cómo se mueve la información desde el remitente hasta el destinatario. En primer lugar, los programas de aplicación envían mensajes o 
+            corrientes de datos a uno de los protocolos de la capa de transporte de Internet, UDP (User Datagram Protocol) o TCP (Transmission Control Protocolo). Estos protocolos reciben los datos 
+            de la aplicación, los dividen en partes más pequeñas llamadas paquetes, añaden una dirección de destino y, a continuación, pasan los paquetes a la siguiente capa de protocolo, la capa de 
+            red de Internet.
+        </p>
+        <ul id="pti3">
+            <li>La capa de red de Internet pone el paquete en un datagrama de IP (Internet Protocol), pone la cabecera y la cola de datagrama, decide dónde enviar el datagrama (directamente a un destino 
+                o a una pasarela) y pasa el datagrama a la capa de interfaz de red.</li>
+            <br>
+            <li>La capa de interfaz de red acepta los datagramas IP y los transmite como tramas a través de un hardware de red específico, por ejemplo redes Ethernet o de Red en anillo.</li>
+        </ul>
+        <div id="red">
+            <h3>REDIRECCIONAMIENTO DE PUERTOS</h3>
+        </div>
+        <p id="red2">
+            La redirección de puertos funciona mediante un sistema que traduce la información del enrutador y la envía a donde necesita estar. El dispositivo que hace este redireccionamiento bien puede ser 
+            el enrutador doméstico o de un área de trabajo, y todos los dispositivos conectados a él tendrán acceso sin restricciones a la red privada y verán las direcciones IP específicas del dispositivo; 
+            sin embargo cualquier dispositivo fuera de la red solo verá la dirección IP externa de la información de reenvío del enrutador. En la mayoría de los casos, la redirección de puertos IP se usa para
+            enviar información desde dispositivos que están fuera de la red a un dispositivo específico dentro de tu red de forma segura.
+        </p>
+        <center>
+            <img src="CSS/puertos.jpg" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="spw">
+            <h3>SERVIDOR DE PÁGINAS WEB</h3>
+        </div>
+        <p id="spw2">
+            El servidor web es un conjunto de software y hardware que utiliza el protocolo HTTP (Hypertext Transfer Protocol) para recibir y responder a las peticiones de los usuarios en la World Wide Web. 
+            El hardware es el que se encuentra conectado a internet para el intercambio de datos, mientras que el software controla la forma en que se accede a la información alojada dentro del servidor. 
+            Éste entonces, se encarga de alojar un montón de páginas, sitios y aplicaciones web, y asimismo mostrar dicho contenido pedido por el cliente.
+        </p>
+        <center>
+            <img src="CSS/servidor-web.jpg" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="pde">
+            <h3>PUERTA DE ENLACE</h3>
+        </div>
+        <p id="pde2">
+            La puerta de enlace (o Gateway) es un dispositivo, generalmente un ordenador, que permite interconectar redes diferentes a todos los niveles de comunicación.<br>
+            <br>Su trabajo básicamente es traducir la información del protocolo de una red al protocolo de una red de destino, o lo que sería realizar una traducción de direcciones IP.
+        </p>
+        <center>
+            <img src="CSS/9113_install_1.gif" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="dipp">
+            <h3>DIRECCIONES IP; PÚBLICAS Y PRIVADAS</h3>
+        </div>
+        <div id="tabla">
+            <table border="1px">
+                <tr>
+                    <th id="dipp2">PÚBLICAS</th>
+                    <th id="dipp4">PRIVADAS</th> 
+                </tr>
+                <tr>
+                    <td id="dipp3">Se trata de aquellas IP que son visibles desde todo Internet y
+                        que se <br>utilizan para identificarte como usuario en la gran red.
+                    Se asignan a los servidores que sirven información 24 horas y podemos contratar tantas como necesitemos.Suele proporcionarla a un router o módem el proveedor de telecomunicaciones 
+                    para crear así una red privada</td>
+                    <td id="dipp5">Son el número que se asigna a cada dispositivo dentro de una red privada para poder identificarlos. Es decir, para identificar por ejemplo tu móvil, laptop, tablet, etc. dentro de 
+                    una misma red WiFi en tu hogar, o para identificar las que utilizan las empresas.</td>
+                </tr>    
+            </table>
+        </div>
+        <center>
+             <img src="CSS/diferencias-red-publica-privada-internet.png" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="dns">
+            <h3>DNS</h3>
+        </div>
+        <p id="dns2">
+            El DNS (Domain Name System, Sistema de Nombres de Dominio) es un conjunto de protocolos y servicios que permite a los usuarios utilizar nombres en vez de tener que recordar direcciones IP numéricas.
+            Ésta es ciertamente la función más conocida de los protocolos DNS: la asignación de nombres a direcciones IP.
+        </p>
+        <p id="dns3">Ejemplo</p>
+        <p id="dns4">
+            Si la dirección IP de www.uja.es es 150.214.170.139, la mayoría de la gente llega a este equipo especificando www.uja.es y no la dirección IP. Además de ser más fácil de recordar, el nombre es más fiable.
+        </p>
+        <div id="fire">
+            <h3>FIREWALL</h3>
+        </div>
+        <p id="fire2">
+            Los firewall son programas de software o dispositivos de hardware que filtran y examinan la información que viene a través de su conexión a Internet. Representan una primera línea de defensa porque pueden 
+            evitar que un programa malicioso o un atacante obtengan acceso a su red y a su información antes de que se produzca cualquier posible daño.
+        </p>
+        <center>
+            <img src="CSS/unnamed.png" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="web">
+            <h3>WEBHOSTING Y DOMINIO</h3>
+        </div>
+        <p id="web2">
+            El alojamiento web o hosting es el espacio de almacenamiento que necesitas para guardar los archivos de tu página web y que así pueda estar visible en internet. En tanto, el dominio es la dirección que los 
+            usuarios escriben en el navegador y sirve para identificar y acceder al sitio web.
+        </p>
+        <center>
+            <img src="CSS/web-hosting-company.jpg" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="ftp">
+            <h3>FTP</h3>
+        </div>
+        <p id="ftp2">
+            File Transfer Protocol es un protocolo de red: un conjunto de reglas que establecen cómo deben comunicarse dos o más entidades para lograr la transmisión de información. En el caso específico del FTP, es un protocolo
+            centrado en la transferencia de archivos a través de una red de tipo TCP/IP que se basa en la arquitectura cliente-servidor.
+        </p>
+        <center>
+            <img src="CSS/ftp.jpg" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="ht">
+            <h3>HTML</h3>
+        </div>
+        <p id="ht2">
+            Hyper Text Markup Language, Se trata de un formato abierto que surgió a partir de las etiquetas SGML (Standard Generalized Markup Language). Este lenguaje es el que se utiliza para especificar los nombres de las etiquetas 
+            que se utilizarán al ordenar, no existen reglas para dicha organización, por eso se dice que es un sistema de formato abierto.
+        </p>
+        <center>
+            <img src="CSS/html.jpg" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="c">
+            <h3>CSS</h3>
+        </div>
+        <p id="c2">
+            Cascading Style Sheets, que puede traducirse como “Hojas de estilo en cascada”, permite presentar, de manera estructurada, un documento que fue escrito en un lenguaje de marcado. Se usa especialmente en el diseño visual de 
+            un sitio web cuando las páginas se hallan escritas en XML o HTML.
+        </p>
+        <center>
+            <img src="CSS/CSS.png" alt="" height="25%" width="25%"/>
+        </center>
+        <div id="con">
+            <h3>CONCLUSIONES</h3>
+        </div>
+        <p id="con1">Conclusion Morales Ramirez Cesar Adrian </p>
+        <p id="con2">
+            Después de investigar los conceptos me cuenta que la mayoría de ellos los usamos todo el tiempo cuando navegamos en Internet sólo que no somos conscientes de que los estamos usando y son necesarios para el funcionamiento correcto
+            de la navegación en la red o para la comunicación entre equipos.
+        </p>
+        <p id="con3">Conclusion Guerra Escamilla Leonardo</p>
+        <p id="con4">
+            Comprender estos conceptos es de suma importancia, puesto que en el desarrollo web es necesario saber cómo es que funciona el internet y cómo es que se manejan todos los datos a través de la red. De esa forma podemos crear una 
+            web que use el protocolo adecuado, y que maneje los datos de entrada y salida de forma eficiente.
+        </p>
+        <p id="con5">Conclusion Reyes Baldivia Litzy Jaqueline</p>
+        <p id="con6">
+            Al investigar estos conceptos entendí más sobre ellos, además de que son importantes saber, entender y comprender cada uno de ellos para así utilizarlos de una buena manera al momento de estar hablando sobre algún tema relacionado.
+            Además de haber realizado la página donde se irán subiendo cada práctica y al finalizar el PIA
+        </p>
+        <p id="con7">Conclusion Garcia Rios Valeria</p>
+        <p id="con8">
+            Después de la práctica y la investigacion realizada, me fue posible comprender los conceptos que se presentaron, ya que estos estan sumamente relacionados con la materia,además de que serán de suma importancia al momento de realizar 
+            las demás prácticas y saber que funcion tiene cada aplicación, es por ello que es necesario que los entienda al 100% y no andan perdida en los próximos proyectos.
+        </p>
+        <p id="con9">Conclusion Cavazos Coronado Johan Alan</p>
+        <p id="con10">
+           Saber conceptos básicos a la hora de iniciar un estudio es esencial para la comprensión completa a futuro. Así como con los básicos los conceptos más avanzados irán a la par de conocer más en profundidad el tema y todas sus ramas
+        </p>
+    </body>
+</html>
