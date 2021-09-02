@@ -1,0 +1,59 @@
+#Titulo{
+    background-color: rgb(80, 80, 233);
+    width: 35%;
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    text-shadow: turquoise;
+
+}
+
+#Def, #Lengua, #Breve, #Forma, #Letra, #Med, #Funcion, #Iden, #Mat, #Ht, #For, #el, #W, #Conclusion, #ani, #ml, #u{
+
+    background-color: rgb(80, 80, 233);
+    width: 30%;
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin: 40px;
+
+}
+
+#d, #leng, #br, #le, #ma, #fo,#Me, #fu, #I, #H, #fr, #em, #we, #a, #tr, #t, #q{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       margin: 40px;
+    text-align: justify;
+}
+
+#fn {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    text-align: justify;
+}
+#f{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 35px;
+    text-align: justify;
+}
+
+
+
+#Con1, #Con2, #Con3, #Con4,#Con5{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 35px;
+    text-align: justify;
+}
+#co1, #co2, #co3, #co4, #co5{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 35px;
+    text-align: justify;
+}
