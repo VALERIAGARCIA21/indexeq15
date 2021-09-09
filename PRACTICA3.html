@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <meta http-equiv="Conetnt-Type" content="text/html; charset=UTF-8">
+        <title>PRACTICA 3</title>
+        <style>
+            body{ background-color: aquamarine;}
+        </style>
+        <link rel="stylesheet" href="IMG/form.css" content="text/html; charset=UFT-8">
+    </head>
+
+    <body>
+        <center>
+            <div id="Ti">
+                <h1>PRACTICA 3; Lección 3: Introducción a la presentación en pantalla con CSS</h1>
+            </div>
+        </center>
+        <center>
+            <div id="c">
+                <h3>¿Que es CSS?</h3>
+            </div>
+        </center>
+        <p id="s">CSS esta denomina lenguaje de hojas estilo cascada, fue desarrollado por WC3 en 1996 por una razón sencilla. Y es que el HTML no esta diseñado para tener etiquetas que ayuden a formatear la pagina. </p>
+        <center>
+            <div id="p">
+                <h3>¿Para que sirve el CSS?</h3>
+            </div>
+        </center>
+        <p id="q">El CSS utiliza una sintaxis simple basada en el inglés con un conjunto de reglas que la gobiernan. Dado a que el HTML no fue hecho con la intención de utilizar elementos de estilo, sino para el marcado de la página. Se creo para describir el contenido.</p>
+        <p id="q">Se puede crear reglas para decirle al sitio web como desea mostrar la información y se puede guardar los comandos para los elementos de estilo separados de los que configuran el contenido.</p>
+        <p id="q">El CSS se conoce como si fuera el propietario de sitio o experto en marketing con conocimiento web es conveniente que conozcas algunos aspectos fundamentales.</p>
+        <center>
+            <div id="d">
+                <h3>¿Cuál es la diferencia que sería más difícil de realizar en un sitio web si se optara por no usar un CSS?</h3>
+            </div>
+        </center>
+        <p id="b">Se dice que el HTML define la forma y estrucutra de una pagina web, mientras que el CSS es un lenguaje que funciona a traves de hojas de diseño, yaq ue decide la apariencia visual a traves de los estilos.</p>
+        <center>
+            <div id="e">
+                <h3>El papel del archivo de reset CSS</h3>
+            </div>
+        </center>
+        <p id="w">Todos los elementos HTML se muestran en pantalla utilizando los estilos por defecto que aplica cada navegador, donde cada navegador aplica sus propias reglas para mostrar los elementos en pantalla. Estas diferencias son las que permiten que en principio los navegadores muestren las páginas en formas distintas. </p>
+        <p id="w">A raíz de estas diferencias, Eric Meyer introdujo en el mundo del diseño y programación web el concepto de “hoja de estilo reset” (Reset Stylesheet). Su idea era elaborar una plantilla base que garantizara que cada navegador, aplicaría las mismas reglas a los elementos de una página.</p>
+        <center>
+            <div id="h">
+                <h3>Breve Historia de las Tecnicas</h3>
+            </div>
+        </center>
+        <p id="x">Las hojas de estilos aparecieron poco después que el lenguaje de etiquetas SGML, alrededor del año 1970.
+         Desde la creación de SGML, se observó la necesidad de definir un mecanismo que permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos.
+         El organismo W3C (World Wide Web Consortium), encargado de crear todos los estándares relacionados con la web, propuso la creación de un lenguaje de hojas de estilos específico para el lenguaje HTML y se presentaron nueve propuestas. 
+         Las dos propuestas que se tuvieron en cuenta fueron la CHSS (Cascading HTML Style Sheets) y la SSP (Stream-based Style Sheet Proposal). </p>
+        <p id="x">A finales de 1996, el W3C publicó la primera recomendación oficial, conocida como "CSS nivel 1". A principios de 1997, el W3C decide separar los trabajos del grupo de HTML en tres secciones: el grupo de trabajo de HTML, el grupo de trabajo de DOM y el grupo de trabajo de CSS. El 12 de Mayo de 1998, el grupo de trabajo de CSS publica su segunda recomendación oficial, conocida como "CSS nivel 2". Al mismo tiempo, la siguiente recomendación de CSS, conocida como "CSS nivel 3", continúa en desarrollo desde 1998 y hasta el momento sólo se han publicado borradores. </p>
+        <center>
+            <div id="i">
+                <h3>Introduccion a las distintas opciones de presentacion de paginas</h3>
+            </div>
+        </center>
+        <p id="l">El CSS lo podemos aplicar de tres formas diferentes:</p>
+        <ul>
+            <li id="v">Directamente en la etiqueta:</li>
+            <center><img src="IMG/1.JPG" alt="" height="10%" width="40%"> </center>
+            
+            <p id="l">Esta opcion noes recomendable, no separa el contenido de la presentacion, Aunque si se puede utilizar de fomra puntual.</p>
+            <li id="v">2. En la cabecera del archivo HTML:</li>
+            <center><img src="IMG/2.JPG" alt="" height="25%" width="45%"> </center>
+            
+            <p id="l">Esta forma es poco eficiente, ya que la pagina web se compone de variso archivos HTML (lo mas usual) es que se temdra que definir el CSS en cada uno de los rchivos HTML</p>
+            <li id="v">3. En un archivo aparte:</li>
+            <p id="l">Esta es mas eficiente de utilizar CSS ya que podemos utilizar todas las paginas HTML, que forman nuestra web.
+                Tendremos un archivo con la extension de la siguiente forma:</p>
+                <center><img src="IMG/3.JPG" alt="" height="10%" width="50%"> </center>
+            
+            <p id="l">Dentro de este archivo tendremos las reglas que definen el estilo de nuestras paginas web. Se declaran de la misma forma forma que en el caso dos.</p>
+        </ul>
+        <center>
+            <div id="r">
+                <h3>El elemento div: creacion de una estructura CSS de dos columnas con anchura fija</h3>
+            </div>
+        </center>
+        <p id="m">El div es un elemento de bloque que sirve como contenedor genérico, en el que podemos colocar varios elementos relacionados.
+            Una página puede tener los div’s que sean necesarios, y es muy común que estos contengan alguna ID o pertenezcan a una clase, como medio para aplicarles un estilo y acomodarlos de forma conveniente. 
+            De igual forma son útiles para separar e identificar las distintas secciones de la página web, como la barra del menú, un índice, un bloque de texto, etc. </p>
+        <p id="m">Algunas características esenciales del div es que, al ser un elemento de bloque, ocupa todo el ancho disponible dentro de su contenedor, o sea que se extiende hasta donde puede, y siempre comienza en una nueva línea, por ende al crear varios de estos se acomodan automáticamente uno abajo del otro.
+            Sin embargo, claro que es posible modificar su altura y anchura, y cambiar sus posiciones dentro del contenedor mediante una hoja de estilos, como también veremos a continuación.</p>
+        <center>
+            <div id="n">
+                <h3>Columnas y Propiedad Float CSS</h3>
+            </div>
+        </center>
+        <p id="ñ">Esta propiedad permite que elementos “floten” en una posición específica de un contenedor, haciendo que los demás elementos cambien su posición respecto a éste.
+            Un ejemplo podría ser aplicarle la propiedad float a una imagen para que cierto texto la rodee. La propiedad float solo acepta los valores “right”, “left”, “none” e “inherit”; asi que los elementos no pueden flotar en el centro.</p>
+            <p id="ñ">Con tal propiedad también se pueden tener varios elementos flotantes en un mismo contenedor, de forma que se alinean unos a lado de otros y siguen en una nueva línea al llegar al final, esto aplica también para los elementos div (a pesar de ser elementos de bloque como se explicó anteriormente) y es una característica muy usada para barras de menú horizontales, galerías de imágenes e incluso columnas de texto.</p>
+            <p id="ñ">En cuanto a este último ejemplo, se puede lograr mediante varios contenedores div con la propiedad float, en los cuales colocaríamos todo el texto que se quiere acomodar, y eso daría el efecto de columnas como el de una página de Word, por ejemplo. Igualmente, para la galería se colocarían varias imágenes flotantes, y para el menú un contenedor con varios elementos “button” con esta misma propiedad.</p>
+        <center>
+            <div id="a">
+                <h3>La propiedad clear</h3>
+            </div>
+        </center>
+        <p id="f">La propiedad CSS clear especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos. La propiedad clear aplica a ambos elementos flotantes y no flotantes.</p>
+        <p id="f">Cuando es aplicado a bloques no flotantes, mueve el border edge (en-US) del elemento hacia abajo hasta que este debajo del margin edge (en-US) de todos los floats relevantes. Este movimiento (cuando acontece) causa que margin collapsing (en-US) no ocurra.</p>
+        <p id="f">Cuando se aplica a elementos flotantes, mueve el margin edge (en-US) del elemento debajo del margin edge (en-US) de todos los floats relevantes. Esto afecta la posición de floats posteriores, ya que estos no pueden ser posicionados más arriba que los primeros.</p>
+        <p id="f">Los floats que son relevantes para ser limpiados (cleared) son los primeros floats dentro del mismo contexto de formato de bloque.</p>
+
+        <center>
+            <div id="z">
+                <h3>Creacion de un menu de navegacion basado en listas con "float"</h3>
+            </div>
+        </center>
+        <p id="y">En primer lugar, hay que crear un menu HTML usando la lita desordenada:</p>
+        <center><img src="IMG/4.JPG" alt="" height="35%" width="35%"> </center>
+        
+        <p id="y"> Luego hay que crear un nuevo fichero CSS y adjuntarlo a la pagina HTML:</p>
+        <center><img src="IMG/5.JPG" alt="" height="10%" width="40%"> </center>
+        
+        <p id="y">Asegurarse de poner el codigo CSS en la etiqueta head de la pagina HTML. Tambien se puede utilizar los estilos en linea.</p>
+        <center><img src="IMG/6.JPG" alt="" height="25%" width="25%"> </center>
+        <p id="y">Como resultado debe obtener el Siguiente codigo HTML:</p>
+       <center><img src="IMG/7.JPG" alt="" height="60%" width="35%"> </center> 
+        <p id="y">La lista desordenada tiene sus propios estilos, así que sin los cambios adicionales obtiene un menú vertical.
+            Para obtener el menú horizontal es necesario hacer algunos cambios en HTML y CSS.
+            En primer lugar, hay que añadir una nueva clase a la lista, reemplace ul> con ul class="horizontal"</p>
+        <p id="y">Ahora en el fichero CSS vamos a crear el menú horizontal. La lista desordenada tiene valores de margen y relleno (margin and padding) asignados por defecto. Tenemos que limpiar ellos:</p>
+        <center><img src="IMG/8.JPG" alt="" height="15%" width="15%"> </center>
+        <p id="y">Luego haga los cambios para que sus elementos de la lista se muestren de manera horizontal:</p>
+        <center><img src="IMG/9.JPG" alt="" height="15%" width="15%"> </center>
+        <p id="y">Hemos añadido el valor de relleno horizontal (padding) a los elementos de la lista para que luego no se peguen unas a otras. Ahora su menú está listo, asigne enlaces, añada un poco de colores y fondo y ya.</p>
+
+        <center>
+            <div id="o">
+                <h3>Añadir estilos para el texto</h3>
+            </div>
+        </center>
+        <p id="k">Como HTML, CSS (Cascading Style Sheets) u Hojas de estilo en cascada en español, no es realmente un lenguaje de programación, tampoco es un lenguaje de marcado. Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML.</p>
+        <p id="k">Hay tres formas de aplicar estilos CSS en un documento HTML: en línea, incrustado en la cabecera y mediante hojas de estilo externas.</p>
+        <ul>
+            <li id="v"> CSS en linea</li>
+            <p id="k">Los estilos en línea son declaraciones CSS que se integran en las etiquetas HTML mediante el atributo style. Este método tan solo afecta al elemento en el que se integra el código. El CSS en línea es complicado de entender y mantener ya que mezcla los estilos CSS con el código HTML.</p>
+            <center><img src="IMG/10.JPG" alt="" height="10%" width="35%"> </center>
+            <li id="v">CSS incrustado en la cabecera</li>
+            <p id="k">Otra manera muy simple de añadir estilo con CSS es utilizando la etiqueta (style) en la cabecera head del fichero HTML del sitio. La desventaja de este método es que, a la hora de realizar cualquier cambio, se debe realizar en múltiples páginas diferentes y el código estará repetido. Su uso puede llegar a ser necesario en el caso de utilizar un gestor de contenido que no permita modificar el archivo CSS directamente.</p>
+            <center><img src="IMG/11.JPG" alt="" height="25%" width="25%"> </center>
+            <li id="v">CSS en Hojas de estilo externas</li>
+            <p id="k">Mediante hojas de estilo externas se consigue separar el archivo de estilos del fichero HTML. El archivo de estilos cuenta con la extensión .css y se referencia desde HTML mediante el elemento <link>. Este es el método más eficiente y más sencillo de mantener ya que el código CSS se encuentra separado del fichero HTML.</p>
+            <center><img src="IMG/12.JPG" alt="" height="30%" width="25%"> </center>
+        </ul>
+        <center>
+            <div id="t">
+                <h3>Efecto de los margenes internos y externos</h3>
+            </div>
+        </center>
+        <p id="u">Podemos separar el texto del borde izquierdo de dos maneras: la primera consiste en utilizar el valor de margen interior o “padding” del contenedor y la segunda, utilizar el margen externo de los objetos contenidos. </p>
+        <p id="u">Vamos a ver ahora los pros y contras de ambas tècnicas, empezando por el padding:</p>
+        <center><img src="IMG/13.JPG" alt="" height="20%" width="25%"> </center>
+        <p id="u">Es una regla abreviada y los valores se leen imaginando el curso de las manillas del reloj. El primer valor (0px) es la separación o margen interior con respecto al borde superior. El segundo valor (20px) corresponde a la separación con respecto al margen derecho. El tercero (0px) es la separación con respecto al borde inferior y el ultimo (20px) es el margen interior de separación aplicable al borde izquierdo.</p>
+        <center><img src="IMG/14.JPG" alt="" height="15%" width="15%"> </center>
+        <p id="u">Esta regla añade un margen de 20 pixeles a la derecha y la izquierda de todos los párrafos y títulos de la página. Guarda el archivo y visualízalo en el navegador.</p>
+    
+        <center>
+            <div id="j">
+                <h3>Aplicar una imagen de fondo al pie de pagina</h3>
+            </div>
+        </center>
+        <p id="g">En la hoja de estilos interna, encuentra la regla para el pie de página (“#footer”). Añade una nueva regla para aplicar una imagen de fondo indicando un archivo de la carpeta de imágenes de tu equipo:</p>
+        <center><img src="IMG/15.JPG" alt="" height="25%" width="45%"> </center>
+        <p id="g">El pie de pàgina tiene ahora una imagen de fondo por aplicacion de una nueva regla CSS.</p>
+        <p id="g">La imagen de fondo ahora aparece detrás de los textos. En la propiedad background-repeat del código anterior. CSS, por defecto, considera a las imágenes de fondo como “baldosas” que se van añadiendo sin límite hasta llenar todo el espacio del objeto al que pertenecen.  Al indicar el valor no-repeat nos aseguramos que la imagen solo se muestra una vez. Las dimensiones del pie de página deben ser tales que nos permitan ver la imagen correctamente.</p>
+        <center>
+            <div id="st">
+                <h3>Ajuste Fino de la estrucutra visual de la pagina</h3>
+            </div>
+        </center>
+        <p id="ts">Al aplicar los colores de fondo y/o bordes a los elementos principales de nuestra estructura en las primeras fases del diseño, el cual ayuda ver mejor los límites.  En caso de no querer conservar, se puede eliminar los colores de fondo de los divs del centro de pagina y se añaden imágenes de fondo y mejorando el estilo de nuestra barra de navegación.</p>
+
+        <div id="Cons"> CONCLUSIONES INDIVIDUALES</div>
+        <p id="CON1">Morales Ramirez Cesar Adrian </p>
+        <p id="co1">Es importante tener el conocimiento necesario sobre css ya que es un complemento sumamente importante de HTML están siempre ligados y es importante también conocer que versiones son compatibles el unos del otro ya que lo correcto es trabajar con versiones que sean compatibles entre si para no tener errores o percances en la ejecución del código.</p>
+        <p id="CON2">Cavazos Coronado Johan Alan</p>
+        <p id="co2">El css fue creado para trabajar en conjunto con el HTML y debido al concepto que utiliza la tecnología css tiene un estándar muy amplio, con especificaciones, beneficios y posibilidades muy grandes. Hoy en día encontrarás al CSS en la mayoría de páginas web, ya que es un requisito tan importante como el propio lenguaje de marcado, dándole propia personalidad y un sentimiento único a la página.</p>
+        <p id="CON3">Reyes Baldivia Litzy Jaqueline</p>
+        <p id="co3">Con esta pràctica encontramos información acerca del CSS, la informacion obtenida fue satisfactoria de mi parte, ya que hay un gran contenido que explica la importancia del CSS en la pagina Web. Ademas de saber como darle diseño a la pagina que uno este creando, esto ayuda tambien para la persona quien apenas esta iniciando en el mundo de la programacion.</p>
+        <p id="CON4">Guerra Escamilla Leonardo</p>
+        <p id="co4">Las hojas de estilo CSS, son una parte primordial para la creación de una página atractiva estéticamente, por lo que es fundamental aprender sobre las distintas propiedades y características de los elementos, sus comportamientos al aplicar dichas propiedades, y sus varios usos creativos. Durante esta práctica pude conocer más ampliamente la estructura CSS, así como el comportamiento de contenedores, el manejo de elementos a través de la propiedad float y la aplicación de márgenes.</p>
+        <p id="CON5">Garcia Rios Valeria</p>
+        <p id="co5">Gracias a la práctica realizada donde se ve el uso y la declaración correcta del CSS se puede llegar a la conclusión de que las hojas de estilo en cascada (CSS) nos ayudan a elevar la calidad de la apariencia de las aplicaciones, con mínimo esfuerzo por parte de nuestra parte. La calidad del diseño y la estandarización le permite al cliente o usuario sentirse más cómodo al visualizarlo. Teniendo en cuenta sus múltiples ventajas, en especial la sencillez de su utilización, además que ayuda a la identificación de la persona que lo desarrolló, es por ello que al escribirlo debemos de tener cuidado de no eliminar o cambiar letras y números, pero con práctica todo se puede.</p>
+
+    </body>
+</html>

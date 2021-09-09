@@ -1,0 +1,54 @@
+#Ti{
+    text-align: center;
+    color:blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+#c, #p, #d, #e, #h, #i, #r, #n, #a, #z, #o, #t, #j, #st{
+   background-color: blue;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin: 40px;
+
+}
+#s, #q, #b, #w, #x, #l, #m, #ñ, #f, #y, #k, #u, #g, #ts{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    text-align: center;
+    
+}
+#v{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    text-align: center;
+}
+#Cons{
+    background-color: blue;
+    width: 35%;
+    text-align: center;
+    font-size: 25px;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+#CON1, #CON2, #CON3, #CON4, #CON5{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    text-align: justify;
+}
+#co1, #co2, #co3, #co4, #co5{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    text-align: justify;
+}
