@@ -1,0 +1,63 @@
+#tl {
+    text-align: center;
+    color:blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h, #o, #i, #nt, #xe, #qr {
+    background-color: rgb(37, 37, 156);
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+#mc, #bts, #fg, #rm, #lm, #nñ, #m{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    
+}
+
+#v{
+background-color:cornflowerblue;
+margin: 15%;
+}
+
+#ml{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    border: 3px solid black;
+}
+#jr{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+    text-align: center;
+    color: blue;
+    border: 3px solid black;
+}
+#con{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin: 20px;
+    text-align: justify;
+    border: 3px solid black;
+}
+#pe{
+    background-color: rgb(37, 37, 156);
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin: 40px;  
+}
