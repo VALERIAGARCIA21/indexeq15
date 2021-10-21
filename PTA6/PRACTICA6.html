@@ -1,0 +1,103 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PRACTICA 6</title>
+    <style>
+        body{ background-color:aquamarine;}
+    </style>
+     <link rel="stylesheet" href="PR6.css" type="text/css"></head>
+<center>
+        <div id="tl">
+            <h1>Practica 6: Canvas de manera dinamica</h1>
+        </div>
+    </center>
+    
+    <CENTER>
+    <canvas width="800" height="450"></canvas>
+    <script>
+    
+     var context = document.getElementsByTagName('canvas')[0].getContext('2d');
+    
+     var lastX = context.canvas.width * Math.random();
+     var lastY = context.canvas.height * Math.random();
+     var hue = 0;
+     function line() {
+       context.save();
+       context.translate(context.canvas.width/2, context.canvas.height/2);
+       context.scale(0.9, 0.9);
+       context.translate(-context.canvas.width/2, -context.canvas.height/2);
+       context.beginPath();
+       context.lineWidth = 5 + Math.random() * 10;
+       context.moveTo(lastX, lastY);
+       lastX = context.canvas.width * Math.random();
+       lastY = context.canvas.height * Math.random();
+       context.bezierCurveTo(context.canvas.width * Math.random(),
+                             context.canvas.height * Math.random(),
+                             context.canvas.width * Math.random(),
+                             context.canvas.height * Math.random(),
+                             lastX, lastY);
+    
+       hue = hue + 10 * Math.random();
+       context.strokeStyle = 'hsl(' + hue + ', 50%, 50%)';
+       context.shadowColor = 'white';
+       context.shadowBlur = 10;
+       context.stroke();
+       context.restore();
+     }
+     setInterval(line, 50);
+    
+     function blank() {
+       context.fillStyle = 'rgba(0,0,0,0.1)';
+       context.fillRect(0, 0, context.canvas.width, context.canvas.height);
+     }
+     setInterval(blank, 40);
+    
+    </script>
+</CENTER>
+        <center>
+            <table id="v">
+             <tr>
+                
+                 <th id="ml">Nombre</th>
+                 <th id="ml">CONCLUSION INDIVIDUAL</th>
+     
+             </tr>
+             <tr>
+                 
+                 <td id="jr">Morales Ramirez Cesar Adrian</td>
+                 <td id="con">Está práctica nos ayudó a entender el funcionamiento del lenguaje Java script y su desarrollo y acoplamiento con otros lenguajes html y nos ayudó a emplear Canvas para hacer las instrucciones de la página web y a la vez darle más visibilidad. Cabe recalcar el jugar o modificar los elementos de Java script nos ayuda a entender mejor su funcionamiento.</td>
+     
+             </tr>
+             <tr>
+                 
+                 <td id="jr">Cavazos Coronado Johan Alan</td>
+                  <td id="con">El Javascript es la base de muchos códigos importantes pues la forma en la que interactua con el usuario es la indicada, entendemos las bases para su uso y no es necesario una investigación profunda, siempre que tengamos la idea correcta de sus orígenes. También podríamos decir que el modelo canvas se utiliza para pasar de idea a proyecto y plasmar nuestra idea en un modelo empresarial. Es un modelo “vivo”, es decir, que vamos modificando según se va desarrollando, vamos validando clientes, surgen nuevas ideas.</td>
+     
+             </tr>
+             <tr>
+                 
+                 <td id="jr">Reyes Baldivia Litzy Jaqueline</td>
+                 <td id="con">Este tema se me hizo un poco complicado, pero se busco informacion aparte de las paginas proporcionadas por el docente, para si encontrar una mejor manera de realizar esta practica, ademas de que ayuda mucho saber mas sobre las etiquetas que podemos usar en estas plataformas, tambien de que utilizamos un nuevo el lenguaje que es el javascript. con el cual ocupamos para realizar esta actividad.</td>
+     
+             </tr>
+             <tr>
+                 
+                 <td id="jr">Guerra Escamilla Leonardo</td>
+                 <td id="con">Esta práctica nos ayudó a entender algunas de las bases del lenguaje de programación JavaScript en el desarrollo web, y con base en esto fuimos capaces de emplear las instrucciones de la herramienta Canvas en una página web. Está de más recalcar la importancia de JavaScript en general, siendo que permite jugar con los elementos de la página de forma dinámica, y así mismo la API de Canvas es muy útil para la generación de dibujos complejos personalizados que pueden brindarles más visibilidad a las páginas.</td>
+     
+             </tr>
+             <tr>
+                 
+                 <td id="jr">Garcia Rios Valeria</td>
+                 <td id="con">Gracias a la práctica realizada pude conocer acerca de canvas, una función que nunca la había utilizado ni la había escuchado, y más sobre el javascript, el cual había utilizado muy poco. Pero en específico canvas es una herramienta muy buena con la que puedes hacer diferentes cosas, pero al mismo tiempo es necesario saber utilizarlo para no cometer errores, a pesar de que lo que vimos e hicimos fue sencillo, creo que se puede sacar mucho provecho de esta herramienta al momento de hacer paginas mas llamativas y dinámicas.</td>
+                 
+     
+             </tr>
+             
+     
+     
+         </table> 
+             </center>
+    </body>
+       
+</html>
