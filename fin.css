@@ -1,0 +1,23 @@
+#img{
+background-image: url(https://www.rananegra.es/uploads/images/main-programacion-web.png);
+}
+
+#tl {
+    background-color: aquamarine;
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 120px;
+}
+#a, #b, #c, #e, #d {
+    background-color: rgb(37, 37, 156);
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 120px;
+    margin: 40px;
+}
